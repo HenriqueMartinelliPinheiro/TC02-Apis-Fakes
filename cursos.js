@@ -31,17 +31,14 @@ const cursos = [
   }
 ];
 
-// Endpoint de GET para Cursos
 cursosRouter.get('/cursos', (req, res) => {
   const { curso, limit, offset } = req.query;
   let filteredCourses = cursos;
 
-  // Filtro por nome de curso
   if (curso) {
     filteredCourses = filteredCourses.filter(c => c.curso.includes(curso));
   }
 
-  // Paginação
   res.json(filteredCourses.slice(offset || 0, (offset || 0) + (limit || filteredCourses.length)));
 });
 
