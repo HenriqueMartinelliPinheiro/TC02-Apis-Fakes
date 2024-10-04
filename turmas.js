@@ -47,8 +47,191 @@ const turmas = [
     "subturma": false,
     "tipo": 1,
     "utiliza-nova-turma-virtual": true
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 35,
+    "codigo-componente": "FIS301",
+    "codigo-turma": "TURMA3",
+    "descricao-horario": "4M45 5M12 (29/07/2024 - 28/11/2024)",
+    "id-componente": 3,
+    "id-discente": 125,
+    "id-docente": 458,
+    "id-docente-externo": 791,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 3,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 3,
+    "local": "Sala 103",
+    "nome-componente": "Física",
+    "periodo": 1,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": false
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 40,
+    "codigo-componente": "QUI401",
+    "codigo-turma": "TURMA4",
+    "descricao-horario": "46M12 (29/07/2024 - 04/12/2024)",
+    "id-componente": 4,
+    "id-discente": 126,
+    "id-docente": 459,
+    "id-docente-externo": 792,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 4,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 1,
+    "local": "Sala 104",
+    "nome-componente": "Química",
+    "periodo": 1,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": false
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 50,
+    "codigo-componente": "BIO501",
+    "codigo-turma": "TURMA5",
+    "descricao-horario": "7M123 (29/07/2024 - 31/08/2024), 7M1234 (01/09/2024 - 14/12/2024)",
+    "id-componente": 5,
+    "id-discente": 127,
+    "id-docente": 460,
+    "id-docente-externo": 793,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 5,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 2,
+    "local": "Sala 105",
+    "nome-componente": "Biologia",
+    "periodo": 2,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": true
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 20,
+    "codigo-componente": "ENG601",
+    "codigo-turma": "TURMA6",
+    "descricao-horario": "2M12345 (12/08/2024 - 25/11/2024)",
+    "id-componente": 6,
+    "id-discente": 128,
+    "id-docente": 461,
+    "id-docente-externo": 794,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 6,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 1,
+    "local": "Sala 106",
+    "nome-componente": "Engenharia",
+    "periodo": 1,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": false
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 25,
+    "codigo-componente": "FIL701",
+    "codigo-turma": "TURMA7",
+    "descricao-horario": "3M12345 (27/08/2024 - 03/12/2024)",
+    "id-componente": 7,
+    "id-discente": 129,
+    "id-docente": 462,
+    "id-docente-externo": 795,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 7,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 2,
+    "local": "Sala 107",
+    "nome-componente": "Filosofia",
+    "periodo": 2,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": true
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 45,
+    "codigo-componente": "SOC801",
+    "codigo-turma": "TURMA8",
+    "descricao-horario": "23M12345 7M45 7T12 (29/07/2024 - 10/08/2024), 3M12345 7M45 7T1234 (13/08/2024 - 26/08/2024), 4M3 (02/10/2024 - 27/11/2024)",
+    "id-componente": 8,
+    "id-discente": 130,
+    "id-docente": 463,
+    "id-docente-externo": 796,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 8,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 1,
+    "local": "Sala 108",
+    "nome-componente": "Sociologia",
+    "periodo": 1,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": false
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 30,
+    "codigo-componente": "GEO901",
+    "codigo-turma": "TURMA9",
+    "descricao-horario": "7M123 (29/07/2024 - 31/08/2024), 7M1234 (01/09/2024 - 14/12/2024)",
+    "id-componente": 9,
+    "id-discente": 131,
+    "id-docente": 464,
+    "id-docente-externo": 797,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 9,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 1,
+    "local": "Sala 109",
+    "nome-componente": "Geografia",
+    "periodo": 2,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": true
+  },
+  {
+    "ano": 2024,
+    "capacidade-aluno": 50,
+    "codigo-componente": "QUI902",
+    "codigo-turma": "TURMA10",
+    "descricao-horario": "46M12 (29/07/2024 - 04/12/2024)",
+    "id-componente": 10,
+    "id-discente": 132,
+    "id-docente": 465,
+    "id-docente-externo": 798,
+    "id-modalidade-educacao": 1,
+    "id-situacao-turma": 1,
+    "id-turma": 10,
+    "id-turma-agrupadora": 0,
+    "id-unidade": 1,
+    "local": "Sala 110",
+    "nome-componente": "Química Avançada",
+    "periodo": 1,
+    "sigla-nivel": "GR",
+    "subturma": false,
+    "tipo": 1,
+    "utiliza-nova-turma-virtual": false
   }
-  // Adicione mais turmas conforme necessário
 ];
 
 turmasRouter.get('/turmas', (req, res) => {
@@ -126,7 +309,6 @@ turmasRouter.get('/turmas', (req, res) => {
     filteredTurmas = filteredTurmas.filter(t => t['cpf-cnpj-docente'] == cpfCnpjDocente);
   }
 
-  // Filtro por parte da descrição do horário (dia/horário ou intervalo de datas)
   if (descricaoHorario) {
     filteredTurmas = filteredTurmas.filter(t => t['descricao-horario'].includes(descricaoHorario));
   }
@@ -144,14 +326,12 @@ turmasRouter.get('/turmas', (req, res) => {
     filteredTurmas = filteredTurmas.filter(t => t['utiliza-nova-turma-virtual'] == JSON.parse(utilizaNovaTurmaVirtual));
   }
 
-  // Ordenação ascendente ou descendente
   if (orderAsc) {
     filteredTurmas = filteredTurmas.sort((a, b) => (a[orderAsc] > b[orderAsc]) ? 1 : -1);
   } else if (orderDesc) {
     filteredTurmas = filteredTurmas.sort((a, b) => (a[orderDesc] < b[orderDesc]) ? 1 : -1);
   }
 
-  // Paginação
   const limitedTurmas = filteredTurmas.slice(offset || 0, (offset || 0) + (limit || filteredTurmas.length));
 
   res.json(limitedTurmas);
