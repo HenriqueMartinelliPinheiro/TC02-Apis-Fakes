@@ -3,11 +3,11 @@ const turmasRouter = express.Router();
 
 const turmas = [
   {
-    "ano": 2022,
+    "ano": 2024,
     "capacidade-aluno": 40,
     "codigo-componente": "MAT101",
     "codigo-turma": "TURMA1",
-    "descricao-horario": "3M12345 (27/08/2024 - 03/12/2024)",
+    "descricao-horario": "1234567M12345 (27/08/2024 - 03/12/2024)",
     "id-componente": 1,
     "id-discente": 123,
     "id-docente": 456,
@@ -309,6 +309,7 @@ turmasRouter.get('/turmas', (req, res) => {
     filteredTurmas = filteredTurmas.filter(t => t['cpf-cnpj-docente'] == cpfCnpjDocente);
   }
 
+  // Correção do nome para 'descricao-horario'
   if (descricaoHorario) {
     filteredTurmas = filteredTurmas.filter(t => t['descricao-horario'].includes(descricaoHorario));
   }
@@ -326,12 +327,14 @@ turmasRouter.get('/turmas', (req, res) => {
     filteredTurmas = filteredTurmas.filter(t => t['utiliza-nova-turma-virtual'] == JSON.parse(utilizaNovaTurmaVirtual));
   }
 
+  // Ordenação por ordem crescente ou decrescente
   if (orderAsc) {
     filteredTurmas = filteredTurmas.sort((a, b) => (a[orderAsc] > b[orderAsc]) ? 1 : -1);
   } else if (orderDesc) {
     filteredTurmas = filteredTurmas.sort((a, b) => (a[orderDesc] < b[orderDesc]) ? 1 : -1);
   }
 
+  // Aplicar paginação (limit e offset)
   const limitedTurmas = filteredTurmas.slice(offset || 0, (offset || 0) + (limit || filteredTurmas.length));
 
   res.json(limitedTurmas);

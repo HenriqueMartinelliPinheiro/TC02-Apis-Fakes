@@ -264,7 +264,6 @@ const discentes = [
     "periodo-ingresso": 1,
     "sigla-nivel": "GR"
   },
-  // Alunos da Turma 8
   {
     "ano-ingresso": 2024,
     "cpf-cnpj": "77788899900",
@@ -334,7 +333,6 @@ const discentes = [
     "periodo-ingresso": 1,
     "sigla-nivel": "GR"
   },
-  // Alunos da Turma 10
   {
     "ano-ingresso": 2024,
     "cpf-cnpj": "99900011122",
