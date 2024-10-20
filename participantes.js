@@ -33,7 +33,7 @@ const participantes = [
     "turmas-agrupadas": true
   },
   {
-    "id-turma": 3,
+    "id-turma": 1,
     "id-institucional": 23456,
     "id-tipo-participante": 1,
     "cpf-cnpj": "22233344455",
