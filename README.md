@@ -1,2 +1,3 @@
 # TC02-Apis-Fakes
-Repositório para o Trabalho de Curso do Curso de Ciência da Computação do IFC Videira
+
+Repositório para o Trabalho de Curso do Curso de Ciência da Computação do IFC Videira, simulando APIs do SIGAA.
